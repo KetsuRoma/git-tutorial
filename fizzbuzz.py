@@ -5,6 +5,8 @@ for i in range(1,100):
         print("fizz")
     elif i % 5 == 0:
         print("buzz")
+    elif i % 7 == 0:
+        print("git")
     else:
         print(i)
 
